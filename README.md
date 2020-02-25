@@ -1,4 +1,5 @@
 # Homework2-BlockChain
+By:Ben Carter
 Code for HW2 in Blockchain and application for GSU
 
 This is java code to find the plaintext given a SHA-1 hashtext.
