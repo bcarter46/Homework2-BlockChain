@@ -10,7 +10,7 @@ The four inputs are hardcoded and the code will run to find the solutions for al
 
 For input 1 the plaintext was "letmein" and it was found in 16 tries and 39 ms.
 Input 2 the plaintext was "vjhtrhsvdctcegth" it took 999968 tries and 4038ms.
-Input 3 the plaintext of the salt was 'slayer' and the plaintext password was harib. this took 546155 tries and 1412 ms.
+Input 3 the plaintext of the salt was "slayer" and the plaintext password was "harib". this took 546155 tries and 1412 ms.
 Input 4 I could not find actual plaintext as it would have taken too long. Estimated time to find answer 8 days?(just a guess).
 
 # Bonus
