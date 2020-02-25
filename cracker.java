@@ -18,7 +18,6 @@ public class cracker {
 	BufferedReader br = new BufferedReader(new FileReader(Pass));
 	BufferedReader br1 = new BufferedReader(new FileReader(Pass));
 	BufferedReader br2 = new BufferedReader(new FileReader(Pass));
-	BufferedReader br3 = new BufferedReader(new FileReader(Pass));
 	long StartTime=System.currentTimeMillis();
 	String input1="b7a875fc1ea228b9061041b7cec4bd3c52ab3ce3";
 	String input2="801cdea58224c921c21fd2b183ff28ffa910ce31";
@@ -91,7 +90,7 @@ public class cracker {
 	// sorry for contrived code here. last minute code hustle to get this part functioning
 	List<String> list = new ArrayList<>();
  	 String stupidGuessing;
-	while((stupidGuessing=br3.readLine())!= null) {
+	while((stupidGuessing=br2.readLine())!= null) {
     
      	count++;
      	list.add(stupidGuessing);
@@ -122,7 +121,7 @@ public class cracker {
           
           if(hashtext3.equals(input4)) {
           	System.out.println("Input 4:");
-          	System.out.println("The plaintext of input 1 is: "+currentGuess+" "+list.get(x));
+          	System.out.println("The plaintext of input 4 is: "+list.get(x)+" "+list.get(y));
           	System.out.println("The time elapsed is "+(-1*(StartTime-System.currentTimeMillis())));
           	System.out.println("Number of tries: "+count);
           	System.out.println("--------------------------");
